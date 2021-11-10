@@ -4,4 +4,4 @@
 
 # Integrantes:
 # - Ayrton Paco
-# - Ezequiel Herboza
+# - Ezequiel Herbosa
