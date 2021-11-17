@@ -2,21 +2,39 @@ header {
     background-color: rgb(88, 127, 158);
     color: white;
     text-align: center;
+    margin: 0%;
+    padding: 1px;
 }
 
 nav{
     background-color: rgb(129, 151, 164);
     color: white;
+    margin: 0%;
+    padding: 1px;
 }
 
 main {
     background-color: rgb(175, 217, 229);
     color: black;
     text-align: justify;
+    margin: 0px;
+    padding: 1px;
 }
 
 footer {
     background-color: rgb(37, 50, 59);
     color: white;
     text-align: center;
+    margin: 0%;
+    padding: 1%;
+}
+
+div{
+    margin: 0%;
+    padding: 1%;
+}
+
+button{
+    background-color: transparent;
+    border: none;
 }
