@@ -18,10 +18,35 @@ header {
 main {
     background-color: rgb(175, 217, 229);
     color: black;
-    text-align: justify;
+    text-align: center;
     margin: 0px;
     padding: 1px;
+    height: 100%;
 }
+
+.cuerpo_central{
+    height: 100%;
+    background-color: withe;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+.cuerpo_central div{
+    margin: 0%;
+    padding: 1%;
+    border: 2px solid black;
+    border-color: black;
+    text-align: center;
+  
+
+}
+
+
+
 
 footer {
     background-color: rgb(37, 50, 59);
@@ -41,10 +66,7 @@ nav{
 
 
 div{
-    margin: 0%;
-    padding: 1%;
-    border: 5px;
-    border-color: black;
+    
 }
 
 button{
