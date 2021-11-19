@@ -3,6 +3,7 @@
     padding: 0px;
 }
 
+
 body{
     font-family: 'Roboto', sans-serif;    
 }
@@ -25,12 +26,30 @@ a {
 }
 
 main {
+    float: right;
+    height: 1000px;
+    width: 1500px;
     background-color: rgb(175, 217, 229);
     color: black;
     text-align: center;
     margin: 0px;
     padding: 1px;
     height: 100%;
+    display: inline-block;
+}
+
+aside {
+    float: left;
+    background-color: darkblue;
+    height: 500px;
+    width: 300px;
+    
+}
+
+.cuerpo_central img {
+    height: 300px;
+    width: 400px;
+    border-radius: 20%;
 }
 
 .cuerpo_central{
@@ -48,12 +67,11 @@ main {
     border: 2px solid black;
     border-color: black;
     text-align: center;
-  
 
 }
 
-
 footer {
+    display: inline-block;
     background-color: rgb(37, 50, 59);
     color: white;
     text-align: center;
