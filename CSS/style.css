@@ -5,6 +5,7 @@
 
 
 body{
+
     font-family: 'Roboto', sans-serif;    
 }
 
@@ -41,8 +42,9 @@ main {
 aside {
     float: left;
     background-color: darkblue;
-    height: 500px;
-    width: 300px;
+    height: 1900px;
+    width: 350px;
+    text-align: center;
     
 }
 
@@ -71,12 +73,14 @@ aside {
 }
 
 footer {
-    display: inline-block;
+    display: inline-flex;
     background-color: rgb(37, 50, 59);
     color: white;
     text-align: center;
+    width: 1900px;
     margin: 0%;
     padding: 1%;
+
 }
 
 nav{
